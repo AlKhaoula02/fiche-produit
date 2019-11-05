@@ -70,6 +70,7 @@ flex-wrap: wrap;
     background-color: red;
     border: 2px solid transparent;
 }
+
 .blue
 {
     width: 30px;
@@ -78,6 +79,7 @@ flex-wrap: wrap;
     background-color: blue;
     border: 2px solid transparent;
 }
+
 .grey
 {
     width: 30px;
@@ -85,4 +87,16 @@ flex-wrap: wrap;
     border-radius: 50px;
     background-color:grey;
     border: 2px solid transparent;
+}
+
+.disabled
+{
+    background: #ddd;
+    pointer-events: none;
+}
+
+.boutton
+{
+    background-color: lightblue;
+    border-color: lightblue;
 }
