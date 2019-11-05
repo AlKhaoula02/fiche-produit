@@ -3,6 +3,86 @@ body {
     margin: 200px 500px;
     font-family: 'Lato', sans-serif;
 }
+
 h1{
     font-size: 15px;;
+}
+
+.prix h2
+{
+    font-size: 20px;
+}
+.produit{
+display: flex;
+
+}
+.image_produit img{
+    width: 400px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.tailles ul li
+{
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.tailles ul li:hover
+{
+    border-color:red;
+}
+.tailles ul li:active
+{
+    background-color: red;
+    color: white;
+}
+.tailles ul
+{
+justify-content: left;
+flex-wrap: wrap;
+}
+
+
+.couleurs ul li:active{
+    border: 2px solid red;
+}
+
+
+.red
+{
+    width: 30px;
+    height: 30px ;
+    border-radius: 50px;
+    background-color: red;
+    border: 2px solid transparent;
+}
+.blue
+{
+    width: 30px;
+    height: 30px ;
+    border-radius: 50px;
+    background-color: blue;
+    border: 2px solid transparent;
+}
+.grey
+{
+    width: 30px;
+    height: 30px ;
+    border-radius: 50px;
+    background-color:grey;
+    border: 2px solid transparent;
 }
