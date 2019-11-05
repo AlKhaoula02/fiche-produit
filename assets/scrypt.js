@@ -22,20 +22,23 @@ for (let i = 0; i < color.length; i++) {
 
 let size = document.querySelectorAll(".tailles ul li");
 let stock = document.querySelector(".stock p");
-let button= document.querySelectorAll("boutton");
+let button= document.querySelector(".boutton");
 
 for (let i = 0; i < size.length; i++) {
 
 size[i].addEventListener('click', function () {
 
-if (i == 3) {
-stock.innerHTML = "Plus disponible";
-button.classList.add("disabled");
-}
-else {
-stock.innerHTML = "Disponible";
-button.classList.remove("disabled");
-}
+    if (i == 3) {
+        stock.innerHTML = "Plus disponible";
+        button.classList.remove("boutton");
+        button.classList.add("disabled");
+        }
+        
+        else {
+        stock.innerHTML = "Disponible";
+        button.classList.remove("disabled");
+        button.classList.add("boutton");
+    }
 })
 }
 
